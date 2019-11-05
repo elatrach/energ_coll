@@ -1,0 +1,82 @@
+
+@import 'reset-css';
+
+
+.nav{
+     
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+
+padding: 0;
+margin:0;
+list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+}
+
+
+header{
+    
+    width: 100%;
+    height: 25em;
+    background-image: url(../energ_coll/Photos/20161202_101925.jpg);
+    
+}
+
+
+#test{
+     width: 100%;
+    height: 25em;
+    background-image: url(../energ_coll/Photos/20161202_101925.jpg);
+}
+
+
+/*
+#lien {
+  display: none;
+}
+
+.menu{
+
+padding: 0;
+margin:0;
+list-style-type: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.hamburger {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width:768px) {
+
+   
+    
+    .hamburger  {
+      display: none;
+    }    
+    
+    #lien {
+      display: block;
+    }
+    
+    
+    .menu{
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+ 
+
+    
+}*/
