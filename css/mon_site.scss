@@ -1,5 +1,7 @@
 
 @import 'reset-css';
+@import 'layout';
+@import 'menu';
 
 .hidden {
     visibility: hidden;
@@ -17,6 +19,7 @@
 	Si vous utilisez normalize.css, inutile de l’ajouter. */
   overflow: hidden;
 }
+
 
 .svg_gr {
     width:10em;

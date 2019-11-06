@@ -334,6 +334,73 @@ template {
   display: none !important;
 }
 
+.inner {
+  width: 100%;
+}
+
+.logo_site {
+  width: 100px;
+}
+
+.bg_dotted {
+  background-image: url("../img/points.svg");
+}
+
+.bg_orange {
+  background-color: orange;
+}
+
+.bg_vert {
+  background-color: green;
+}
+
+.lesLogos {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.lesLogos > div {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .inner {
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .inner {
+    width: 1170px;
+  }
+}
+
+.texte_principal {
+  text-align: center;
+  font-weight: bold;
+}
+
+.photo_texte {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .photo_texte {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+  .texte {
+    padding-left: 1rem;
+  }
+}
+
 .hidden {
   visibility: hidden;
 }
